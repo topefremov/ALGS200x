@@ -23,6 +23,9 @@
         <module>gcd</module>
         <module>fibonacci-lastdigit</module>
         <module>fibonacci</module>
+        <module>huge-fibonaccci</module>
+        <module>fibonacci-sum-lastdigit</module>
+        <module>fibonacci-partial-sum-lastdigit</module>
     </modules>
     
     <dependencyManagement>
@@ -30,6 +33,26 @@
             <dependency>
                 <groupId>io.github.topefremov.algs</groupId>
                 <artifactId>gcd</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.topefremov.algs</groupId>
+                <artifactId>fibonacci</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.topefremov.algs</groupId>
+                <artifactId>fibonacci-lastdigit</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.topefremov.algs</groupId>
+                <artifactId>huge-fibonacci</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>io.github.topefremov.algs</groupId>
+                <artifactId>fibonacci-sum-lastdigit</artifactId>
                 <version>${project.version}</version>
             </dependency>
         </dependencies>
