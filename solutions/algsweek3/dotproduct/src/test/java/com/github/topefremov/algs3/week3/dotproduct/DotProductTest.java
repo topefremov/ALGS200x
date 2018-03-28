@@ -44,4 +44,15 @@ public class DotProductTest {
         int[] arr2 = new int[] {21038, 40042, 12934, 39516, 44685};
         assertEquals(2374802355L, DotProduct.maxDotProduct(arr1, arr2));
     }
+
+    @Test
+    public void maxDotProductTest4() {
+        int[] arr1 = new int[1000];
+        int[] arr2 = new int[1000];
+        for (int i = 0; i < 1000; i++) {
+            arr1[i] = 100000;
+            arr2[i] = 100000;
+        }
+        assertEquals(10000000000000L, DotProduct.maxDotProduct(arr1, arr2));
+    }
 }
