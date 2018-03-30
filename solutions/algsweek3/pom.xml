@@ -12,6 +12,7 @@
         <module>maximizingloot</module>
         <module>dotproduct</module>
         <module>coveringsegments</module>
+        <module>differentsummands</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
