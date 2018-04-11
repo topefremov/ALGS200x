@@ -10,6 +10,7 @@
     <modules>
         <module>binarysearch</module>
         <module>majorityelement</module>
+        <module>inversions</module>
     </modules>
     <packaging>pom</packaging>
 
