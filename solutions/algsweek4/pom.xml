@@ -11,6 +11,7 @@
         <module>binarysearch</module>
         <module>majorityelement</module>
         <module>inversions</module>
+        <module>lottery</module>
     </modules>
     <packaging>pom</packaging>
 
