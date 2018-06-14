@@ -6,7 +6,6 @@
         <artifactId>algsweek5</artifactId>
         <groupId>com.github.topefremov</groupId>
         <version>1.0-SNAPSHOT</version>
-        <relativePath>../../solutions/algsweek5/pom.xml</relativePath>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
