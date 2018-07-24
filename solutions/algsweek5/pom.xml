@@ -10,6 +10,7 @@
     <modules>
         <module>dpchange</module>
         <module>primcalc</module>
+        <module>editdist</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
