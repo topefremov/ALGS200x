@@ -3,7 +3,7 @@ package com.github.topefremov.algsweek5.primcalc;
 import java.util.*;
 import java.util.stream.IntStream;
 
-public class PrimitiveCalculator {
+class PrimitiveCalculator {
 
     static List<Integer> optimal_sequence(int n) {
         return constructMinSeq(minOps(n));
@@ -36,7 +36,7 @@ public class PrimitiveCalculator {
 
     private static List<Integer> constructMinSeq(int[] minOps) {
         int n = minOps.length - 1;
-        List<Integer> seq = new ArrayList<>(Arrays.asList(n));
+        List<Integer> seq = new ArrayList<>(Collections.singletonList(n));
         int minSeqLen = minOps[n];
         int temp;
         while (n > 1) {

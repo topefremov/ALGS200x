@@ -2,7 +2,7 @@ package com.github.topefremov.algsweek5.dpchange;
 
 import java.util.Scanner;
 
-public class DPChange {
+class DPChange {
 
     private static final int[] denominations = new int[] { 1, 3, 4 };
 

@@ -3,6 +3,7 @@ package com.github.topefremov.algsweek5.primcalc;
 import org.junit.Test;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 import static org.hamcrest.CoreMatchers.*;
@@ -13,7 +14,7 @@ public class PrimitiveCalculatorTest {
     @Test
     public void sample1Test() {
         int n = 1;
-        List<Integer> expected = Arrays.asList(1);
+        List<Integer> expected = Collections.singletonList(1);
 
         List<Integer> actual = PrimitiveCalculator.optimal_sequence(n);
 

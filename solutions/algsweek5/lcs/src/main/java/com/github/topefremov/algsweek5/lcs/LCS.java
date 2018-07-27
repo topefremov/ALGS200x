@@ -3,7 +3,7 @@ package com.github.topefremov.algsweek5.lcs;
 import java.util.Scanner;
 import java.util.stream.IntStream;
 
-public class LCS {
+class LCS {
     static int lcs2(int[] a, int[] b) {
         int[][] matrix = new int[a.length + 1][b.length + 1];
 
