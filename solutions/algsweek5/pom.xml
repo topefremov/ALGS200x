@@ -12,6 +12,7 @@
         <module>primcalc</module>
         <module>editdist</module>
         <module>lcs</module>
+        <module>lcs3</module>
     </modules>
     <packaging>pom</packaging>
     <properties>
